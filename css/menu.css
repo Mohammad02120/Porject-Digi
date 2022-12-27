@@ -43,6 +43,7 @@ div.menu>nav>ul>li:hover>div.Sort{
 }
 div.menu>nav>ul>li>div.Sort>ul>li{
     list-style-type: none;
+    padding-bottom: 25px;
 }
 div.menu>nav>ul>li>div.Sort>ul>li>a{
     text-decoration: none;
