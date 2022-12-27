@@ -1,0 +1,17 @@
+@import "header.css";
+@import "./menu.css";
+
+
+@font-face {
+  font-family: Yekan;
+  src: url(../font/Yekan.woff);
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Yekan;
+}
