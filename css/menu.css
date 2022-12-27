@@ -70,9 +70,6 @@ label[for=hide]{
 #show:checked ~ div.first{
     left: 0;
 }
-#hide:checked ~ div.first{
-
-}
 
 
 
