@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <title>DigiKala</title>
   </head>
   <body>
@@ -331,6 +332,78 @@
         </ul>
       </nav>
     </div>
+    <!-- Head Swiper -->
+     <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/swip1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/swip2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/swip3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/swip4.jpg" alt=""></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+   <div class="baby">
+    <a href="#">
+      <img src="./images/img1.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img2.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img3.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img4.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img5.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img6.png" alt="x">
+    </a>
+
+    <a href="#">
+      <img src="./images/img7.png" alt="x">
+    </a>
+   </div>
+   <!-- end head swiper -->
+   <div class="shegeft">
+    <a href="#">
+      <img src="./images/shegeft1.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft2.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft3.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft4.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft5.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft6.PNG" alt="shegeft">
+    </a>
+    <a href="#">
+      <img src="./images/shegeft7.PNG" alt="shegeft">
+    </a>
+
+    
+
+
+   </div>
+
+
+      
 
 
 
@@ -354,12 +427,30 @@
 
 
 
+    <script src="./node_modules/swiper/swiper-bundle.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  
 
 
 
-
-
-
-
+   
   </body>
 </html>
