@@ -1,6 +1,7 @@
 @import "header.css";
 @import "./menu.css";
-@import "./swiper1.css"
+@import "./swiper1.css";
+@import "./slider.css";
 
 @font-face {
   font-family: Yekan;

@@ -1,0 +1,11 @@
+div.slider{
+    width: 98%;
+    padding: 10px;
+    text-align: center;
+}
+div.slider>a>img{
+    width: 300px;
+    margin: 5px 10px;
+    border-radius: 10px;
+   
+}
