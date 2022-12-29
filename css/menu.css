@@ -107,13 +107,13 @@ div.menu>nav>ul>li>a{
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
-    color: #626671;
+    color: #626671f6;
 }
 div.menu>nav>ul>li>div.Sort{
     width: 95%;
     padding: 50px;
     height: 600px;
-    background-color: #917f7f;
+    background-color: #c9c9c9f5;
     position: absolute;
     right: 20px;
     top: 40px;

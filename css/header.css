@@ -93,7 +93,7 @@ div.baby{
   width: 100%;
   height: 150px;
   background-color: transparent;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 div.baby>a>img{
@@ -101,7 +101,41 @@ div.baby>a>img{
   height: 70px;
   margin: 50px;
 }
-
+/* shegeft */
+div.shegeft{
+  width: 100%;
+  height: 270px;
+  background-color: red;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.shegeft>a>img{
+  margin-top: 10px;
+  transform: scale(1,1);
+  transition: 300ms;
+  
+  
+}
+div.shegeft>a>img:hover{
+  transform: scale(1.1 ,1.1);
+  transition: 300ms;
+  box-shadow: 5px 5px 5px black;
+  
+}
+div.ShegftSuper{
+  width: 100%;
+  height: 100px;
+}
+div.ShegftSuper>a>img{
+  width: 100%;
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
 
 
 
