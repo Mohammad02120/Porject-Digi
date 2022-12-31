@@ -1,33 +1,90 @@
-div.slider{
-    width: 98%;
-    padding: 10px;
-    text-align: center;
+.anchor {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
 }
-div.slider>a>img{
-    width: 300px;
-    margin: 5px 10px;
-    border-radius: 10px;
-   
+.headtitrdiv {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  text-align: center;
 }
-div.dastebandi{
-    width: 100%;
-    height: 70px;
-    background-color: transparent;
-    text-align: center;
+.headtitrh2 {
+  font-size: 22px;
+  font-weight: 100;
 }
-div.Daste1{
-    width: 100%;
-    height: 250px;
-    background-color: aqua;
-    text-align: center;
+.fsuggestion {
+  display: inline-block;
 }
-
-div.Daste1>figure>a>img{
-    width: 170px;
-    height: 170px;
-
+.imgsuggestion {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
 }
-div.Daste1>figure{
-    display: inline-block;
+.fcsug {
+  color: grey;
+  font-size: 14px;
 }
 
+div.slider {
+  width: 98%;
+  padding: 10px;
+  text-align: center;
+}
+div.slider > a > img {
+  width: 300px;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
+div.dastebandi {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  text-align: center;
+}
+div.dastebandi > h2 {
+  font-size: 22px;
+  font-weight: 100;
+}
+div.Daste1 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+div.Daste1 > figure > a > img {
+  width: 170px;
+  height: 170px;
+  display: inline-block;
+}
+div.Daste1 > figure {
+  display: inline-block;
+}
+div.middle {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 1300px;
+}
+div.middle > img {
+  width: 620px;
+  height: 236px;
+  margin: 0 7px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+div.suggestion {
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+div.suggestion > table {
+  width: 100%;
+  border: 1px solid #dddada;
+  border-radius: 10px;
+}
