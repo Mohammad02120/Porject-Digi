@@ -26,7 +26,9 @@
   color: grey;
   font-size: 14px;
 }
-
+.cursor{
+  cursor: pointer;
+}
 div.slider {
   width: 98%;
   padding: 10px;
@@ -173,9 +175,31 @@ div.Qablame {
   width: 95%;
   margin: 20px auto;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 div.Qablame > img {
   width: 100%;
   height: inherit;
   border-radius: 10px;
+}
+div.montakhab{
+  width: 95%;
+  margin: 20px auto;
+  text-align: center;
+}
+div.montakhab>h2{
+  font-size: 22px;
+  font-weight: 100;
+}
+div.montakhab>table{
+  
+  
+}
+div.montakhab>h6{
+  cursor: pointer;
+  font-size: 14px;
+  color: #48d0e2;
 }
