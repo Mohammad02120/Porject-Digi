@@ -75,6 +75,10 @@ div.middle > img {
   border-radius: 15px;
   cursor: pointer;
   margin: 0 10px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 div.suggestion {
   width: 100%;
@@ -86,5 +90,92 @@ div.suggestion {
 div.suggestion > table {
   width: 100%;
   border: 1px solid #dddada;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.fbrands {
+  width: 95%;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin: 20px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.fbrands > h2 {
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: -10px;
+}
+div.fbrands > img {
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  margin: 0 13px;
+}
+div.Parent {
+  width: 95%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+div.Parent > div.child {
+  display: inline-block;
+  width: 20%;
+  margin: 0 20px;
+  text-align: right;
+}
+div.Parent > div.child > h3 {
+  font-size: 15px;
+}
+div.Parent > div.child > p {
+  font-size: 12px;
+  margin-top: -14px;
+}
+div.Parent > div.child > img {
+  cursor: pointer;
+}
+div.Parent > div.child > a {
+  text-decoration: none;
+  color: #48d0e2;
+  padding-bottom: 10px;
+}
+div.digiplusbanner {
+  width: 95%;
+  margin: 20px auto;
+}
+div.digiplusbanner > a > img {
+  margin: 0 auto;
+  border-radius: 10px;
+}
+div.PorForoosh {
+  width: 95%;
+  border: 1px solid grey;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+div.PorForoosh > h2 {
+  font-size: 22px;
+  font-weight: 100;
+}
+div.PorForoosh > img {
+  cursor: pointer;
+}
+div.Qablame {
+  width: 95%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+div.Qablame > img {
+  width: 100%;
+  height: inherit;
   border-radius: 10px;
 }

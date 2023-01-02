@@ -3,6 +3,19 @@
 @import "./swiper1.css";
 @import "./slider.css";
 
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #cccbcb;
+  width: 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 @font-face {
   font-family: Yekan;
   src: url(../font/Yekan.woff);
