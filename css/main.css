@@ -2,11 +2,14 @@
 @import "./menu.css";
 @import "./swiper1.css";
 @import "./slider.css";
+@import "./Footer.css";
+
+
 
 ::-webkit-scrollbar{
   width: 8px;
-  background-color: #fff;
 }
+
 ::-webkit-scrollbar-thumb{
   background-color: #cccbcb;
   width: 8px;
@@ -28,6 +31,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Yekan;
+  scroll-behavior: smooth;
 }
 .swiper {
   width: 100%;

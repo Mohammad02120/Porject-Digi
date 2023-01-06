@@ -1,0 +1,240 @@
+div.khandani{
+    width: 90%;
+    padding: 20px;
+    text-align: right;
+    direction: rtl;
+}
+div.khandani>span.Num1{
+    display: inline-block;
+    font-size: 18px;
+}
+div.khandani>span.Num2>a{
+    float: left;
+    text-decoration: none;
+    font-size: 14px;
+    color: #48d0e2;
+    padding-bottom: 40px;
+}
+div.KhandaniHa{
+    width: 100%;
+    margin: 0 auto;
+   box-sizing: border-box;
+   text-align: center;
+   position: relative;
+   box-shadow: 10px 3px 2px grey;
+   height: 400px;
+}
+div.KhandaniHa>div{
+    direction: rtl;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    text-align: right;
+    margin: 0 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+div.KhandaniHa>div>img{
+   width: 250px;
+   border-top-left-radius:10px ;
+   border-top-right-radius:10px ;
+}
+div.KhandaniHa>div>p{
+    padding: 10px;
+}
+div.KhandaniHa>div.Num1{
+    top: 0;
+    left: 40px;
+}
+div.KhandaniHa>div.Num2{
+    top: 0;
+    left: 350px;
+}
+div.KhandaniHa>div.Num3{
+    top: 0;
+    right: 40px;
+}
+div.KhandaniHa>div.Num4{
+    top: 0;
+    right: 350px;
+}
+div.footer{
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+   
+}
+div.footer>img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+div.footer>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 12px;
+    color: grey;
+    border: 1px solid grey;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+p.pfooter{
+    direction: rtl;
+ margin-right: 10px;
+   
+
+
+
+
+}
+div.svgs{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+div.svgs>figure{
+    display: inline-block;
+    cursor: pointer;
+}
+div.svgs>figure>figcaption{
+    font-size: 12px;
+}
+div.Footer1{
+    width: 100%;
+    padding: 10px;
+    direction: rtl;
+    text-align: right;
+   
+}
+div.Footer1>div{
+    width: 24%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+div.Footer1>div>h2{
+    font-size: 18px;
+}
+div.Footer1>div>p>a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #3d3a3a;
+}
+div.Footer1>div>img{
+    cursor: pointer;
+}
+div.Footer1>div>input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: inline-block;
+    background-color: #e6e1e1;
+    
+}
+
+div.Footer1>div>a{
+    display: inline-block;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #6a6b68;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+div.dlapp{
+    width: 100%;
+    height: 70px;
+    max-width: 1200px;
+    position: relative;
+}
+div.dlapp>figure>img.dlapp{
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+div.footer2{
+    width: 90%;
+    padding: 10px;
+    
+    text-align: right;
+    direction: rtl;
+    position: relative;
+    right: -100px;
+}
+div.footer2>div,div.footer2>div.namad{
+    width: 40%; 
+    display: inline-block;
+}
+div.footer2>div>h5{
+    font-size: 15px;
+}
+div.footer2>div>p{
+    font-size: 14px;
+}
+div.namad{
+    text-align: left;
+}
+div.namad>div{
+    width: 109px;
+    height: 109px;
+    border: 1px solid #dadada;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 2px;
+    position: relative;
+    top: -150px;
+    left: -150px;
+    cursor: pointer;
+}
+div.namad>div>img{
+    width: 75px;
+    height: 75px;
+    margin: 5px auto;
+    vertical-align: text-top;
+}
+div.alert{
+    text-align: center;
+    direction: rtl;
+}
+div.alert>p{
+    font-size: 15px;
+}
+div.goodbye{
+    width: 100%;
+    margin: 40px auto;
+    cursor: pointer;
+}

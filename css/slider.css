@@ -186,7 +186,7 @@ div.Qablame > img {
   border-radius: 10px;
 }
 div.montakhab{
-  width: 95%;
+  width: 100%;
   margin: 20px auto;
   text-align: center;
 }
@@ -194,12 +194,10 @@ div.montakhab>h2{
   font-size: 22px;
   font-weight: 100;
 }
-div.montakhab>table{
-  
-  
-}
 div.montakhab>h6{
   cursor: pointer;
   font-size: 14px;
   color: #48d0e2;
+  box-shadow: 10px 3px 2px grey;
+  padding-bottom: 40px;
 }
